@@ -1,0 +1,915 @@
+{
+  "common": {
+    "globalUI": {
+      "loading": "Loading...",
+      "notFound": {
+        "title": "Oops!",
+        "subtitle": "Page Not Found",
+        "description": "Looks like you have taken a wrong turn. Let us get you back on track.",
+        "homeButtonText": "Back to Home",
+        "homeButtonUrl": "/"
+      }
+    },
+    "Footer": {
+      "logo": "/main logo/logo-new.png",
+      "logoAlt": "ForgeFit Logo",
+      "description": "At ForgeFit, we believe in a stronger, healthier and happier you. Our goal is to make fitness simple, effective and accessible for everyone.",
+      "socialLinks": [
+        {
+          "id": "fb",
+          "icon": "FaFacebookF",
+          "url": "#"
+        },
+        {
+          "id": "ig",
+          "icon": "FaInstagram",
+          "url": "#"
+        },
+        {
+          "id": "yt",
+          "icon": "FaYoutube",
+          "url": "#"
+        },
+        {
+          "id": "li",
+          "icon": "FaLinkedinIn",
+          "url": "#"
+        }
+      ],
+      "columns": [
+        {
+          "id": "quick-links",
+          "title": "Quick Links",
+          "links": [
+            {
+              "id": "ql-1",
+              "label": "Home",
+              "url": "#home"
+            },
+            {
+              "id": "ql-2",
+              "label": "About Us",
+              "url": "#about"
+            },
+            {
+              "id": "ql-3",
+              "label": "Our Programs",
+              "url": "#programs"
+            },
+            {
+              "id": "ql-4",
+              "label": "Process",
+              "url": "#process"
+            },
+            {
+              "id": "ql-5",
+              "label": "Gallery",
+              "url": "#gallery"
+            },
+            {
+              "id": "ql-6",
+              "label": "Contact Us",
+              "url": "#contact"
+            }
+          ]
+        },
+        {
+          "id": "our-programs",
+          "title": "Our Programs",
+          "links": [
+            {
+              "id": "op-1",
+              "label": "Personal Training",
+              "url": "#programs"
+            },
+            {
+              "id": "op-2",
+              "label": "Strength Training",
+              "url": "#programs"
+            },
+            {
+              "id": "op-3",
+              "label": "Weight Loss Program",
+              "url": "#programs"
+            },
+            {
+              "id": "op-4",
+              "label": "Muscle Building",
+              "url": "#programs"
+            },
+            {
+              "id": "op-5",
+              "label": "Yoga & Mobility",
+              "url": "#programs"
+            },
+            {
+              "id": "op-6",
+              "label": "Nutrition Guidance",
+              "url": "#programs"
+            }
+          ]
+        },
+        {
+          "id": "support",
+          "title": "Support",
+          "links": [
+            {
+              "id": "sup-1",
+              "label": "FAQs",
+              "url": "#faq"
+            },
+            {
+              "id": "sup-2",
+              "label": "Testimonials",
+              "url": "#testimonials"
+            },
+            {
+              "id": "sup-3",
+              "label": "Our Impact",
+              "url": "#impact"
+            },
+            {
+              "id": "sup-4",
+              "label": "Our Process",
+              "url": "#process"
+            },
+            {
+              "id": "sup-5",
+              "label": "Get in Touch",
+              "url": "#contact"
+            }
+          ]
+        }
+      ],
+      "contact": {
+        "title": "Get In Touch",
+        "items": [
+          {
+            "id": "ci-1",
+            "icon": "FaMapMarkerAlt",
+            "text": "123 Dummy St,\nNew York, NY 10001"
+          },
+          {
+            "id": "ci-2",
+            "icon": "FaPhoneAlt",
+            "text": "+1 000000000"
+          },
+          {
+            "id": "ci-3",
+            "icon": "FaEnvelope",
+            "text": "info@xyz.com"
+          },
+          {
+            "id": "ci-4",
+            "icon": "FaClock",
+            "text": "Mon - Sat: 6:00 AM - 10:00 PM\nSunday: Closed"
+          }
+        ]
+      },
+      "copyright": "© 2026 ForgeFit All Rights Reserved. Powered by Lestow",
+      "bottomCenterText": "FITNESS BEYOND LIMITS"
+    }
+  },
+  "categories": {
+    "ForgeFit": {
+      "templateComponents": {
+        "ForgeFit": {
+          "shared": {
+            "TopBar": "ForgeFitTopBar2",
+            "Header": "ForgeFitHeader2",
+            "Footer": "Footer"
+          },
+          "pages": {
+            "home": {
+              "components": [
+                {
+                  "key": "TopBar",
+                  "component": "ForgeFitTopBar2"
+                },
+                {
+                  "key": "Header",
+                  "component": "ForgeFitHeader2"
+                },
+                {
+                  "key": "HeroSection",
+                  "component": "ForgeFitHero2"
+                },
+                {
+                  "key": "AboutUs",
+                  "component": "ForgeFitAbout2"
+                },
+                {
+                  "key": "TrainingPrograms",
+                  "component": "ForgeFitTraining2"
+                },
+                {
+                  "key": "ProcessSection",
+                  "component": "ForgeFitProcess2"
+                },
+                {
+                  "key": "ImageGallerySection",
+                  "component": "ForgeFitImageGallery2"
+                },
+                {
+                  "key": "Testimonials",
+                  "component": "ForgeFitTestimonials2"
+                },
+                {
+                  "key": "Counter",
+                  "component": "ForgeFitCounter2"
+                },
+                {
+                  "key": "FAQSection",
+                  "component": "ForgeFitFAQ2"
+                },
+                {
+                  "key": "ContactUs",
+                  "component": "ForgeFitContact2"
+                },
+                {
+                  "key": "Footer",
+                  "component": "Footer"
+                }
+              ]
+            }
+          }
+        }
+      },
+      "sections": {
+        "TopBar": {
+          "variants": {
+            "ForgeFitTopBar2": {
+              "hours": "Mon - Sat (6:00 - 22:00)",
+              "phone": "+1 000000000",
+              "address": "Metro City Gym, 5th Avenue, NY",
+              "socialLinks": [
+                {
+                  "id": "tb-fb",
+                  "icon": "FaFacebookF",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-tw",
+                  "icon": "FaTwitter",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-ig",
+                  "icon": "FaInstagram",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-yt",
+                  "icon": "FaYoutube",
+                  "url": "#"
+                },
+                {
+                  "id": "tb-web",
+                  "icon": "FaGlobe",
+                  "url": "#"
+                }
+              ]
+            }
+          }
+        },
+        "Header": {
+          "variants": {
+            "ForgeFitHeader2": {
+              "logo": "/main logo/logo-new.png",
+              "logoAlt": "ForgeFit Logo",
+              "navLinks": [
+                {
+                  "id": "nav-home",
+                  "label": "Home",
+                  "url": "#home"
+                },
+                {
+                  "id": "nav-about",
+                  "label": "About Us",
+                  "url": "#about"
+                },
+                {
+                  "id": "nav-programs",
+                  "label": "Programs",
+                  "url": "#programs"
+                },
+                {
+                  "id": "nav-process",
+                  "label": "Process",
+                  "url": "#process"
+                },
+                {
+                  "id": "nav-gallery",
+                  "label": "Gallery",
+                  "url": "#gallery"
+                },
+                {
+                  "id": "nav-testimonials",
+                  "label": "Testimonials",
+                  "url": "#testimonials"
+                },
+                {
+                  "id": "nav-faq",
+                  "label": "FAQ",
+                  "url": "#faq"
+                },
+                {
+                  "id": "nav-impact",
+                  "label": "Impact",
+                  "url": "#impact"
+                }
+              ],
+              "contactButton": {
+                "text": "Contact Us",
+                "url": "#contact"
+              }
+            }
+          }
+        },
+        "Hero": {
+          "variants": {
+            "ForgeFitHero2": {
+              "footerTags": [
+                "FITNESS",
+                "STRENGTH",
+                "WELLNESS",
+                "LIFESTYLE"
+              ],
+              "slides": [
+                {
+                  "id": "slide-1",
+                  "image": "/banner/banner2.webp",
+                  "imageAlt": "Gym Training",
+                  "tagline": "STRONGER EVERY SINGLE DAY",
+                  "title": "Shape Your ",
+                  "titleHighlight": "Best Self",
+                  "description": "Personalized workout plans, expert coaching, and real progress made simple for your routine.",
+                  "primaryButton": {
+                    "text": "Our Programs",
+                    "url": "#programs"
+                  },
+                  "secondaryButton": {
+                    "text": "About Us",
+                    "url": "#about"
+                  }
+                },
+                {
+                  "id": "slide-2",
+                  "image": "/banner/banner1.webp",
+                  "imageAlt": "Strength Training",
+                  "tagline": "TRAIN SMARTER NOT HARDER",
+                  "title": "Unleash Your ",
+                  "titleHighlight": "Inner Power",
+                  "description": "High-energy strength and functional sessions crafted to build stamina, power, and confidence.",
+                  "primaryButton": {
+                    "text": "Our Programs",
+                    "url": "#programs"
+                  },
+                  "secondaryButton": {
+                    "text": "About Us",
+                    "url": "#about"
+                  }
+                },
+                {
+                  "id": "slide-3",
+                  "image": "/banner/banner3.webp",
+                  "imageAlt": "Wellness Lifestyle",
+                  "tagline": "HEALTHY HABITS REAL PROGRESS",
+                  "title": "Reinvent Your ",
+                  "titleHighlight": "Daily Routine",
+                  "description": "A balanced fitness lifestyle with expert guidance on workouts, nutrition, and daily recovery.",
+                  "primaryButton": {
+                    "text": "Our Programs",
+                    "url": "#programs"
+                  },
+                  "secondaryButton": {
+                    "text": "About Us",
+                    "url": "#about"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "AboutUs": {
+          "variants": {
+            "ForgeFitAbout2": {
+              "image1": "/about/about-2.jpg",
+              "image2": "/about/about-1.jpg",
+              "image1Alt": "Personal Training",
+              "image2Alt": "Workout Session",
+              "experienceYears": "15",
+              "experienceLabel": "YEARS OF\nEXPERIENCE",
+              "subtitle": "About Us",
+              "watermarkText": "ABOUT US",
+              "titlePart1": "Dedicated To Building ",
+              "titleHighlight": "True Strength",
+              "description": "We make everyday fitness straightforward and enjoyable. No confusing routines or extreme gimmicks — just practical coaching, top gym equipment, and genuine encouragement to help you stay active, healthy, and energized.",
+              "features": [
+                {
+                  "id": "feat-1",
+                  "icon": "FaUsers",
+                  "title": "Certified Fitness Coaches",
+                  "description": ""
+                },
+                {
+                  "id": "feat-2",
+                  "icon": "FaDumbbell",
+                  "title": "Modern Training Equipment",
+                  "description": ""
+                }
+              ],
+              "buttonText": "Know More",
+              "buttonUrl": "#programs",
+              "bottomTags": [
+                "FITNESS",
+                "STRENGTH",
+                "WELLNESS"
+              ],
+              "bottomSlogan": "A HEALTHIER HAPPIER YOU"
+            }
+          }
+        },
+        "Training": {
+          "variants": {
+            "ForgeFitTraining2": {
+              "subtitle": "OUR PROGRAMS",
+              "titlePart1": "TRAINING",
+              "titleHighlight": "PROGRAMS",
+              "description": "Focused workouts built for your specific body goals, whether you are taking your first step or leveling up.",
+              "buttonText": "START YOUR JOURNEY",
+              "buttonUrl": "#contact",
+              "buttonSideLines": true,
+              "programs": [
+                {
+                  "id": "prog-1",
+                  "image": "/about/about-1.jpg",
+                  "imageAlt": "Personal Training",
+                  "category": "01",
+                  "title": "Personal Coaching",
+                  "description": "Dedicated 1-on-1 coaching with tailored exercise routines and constant guidance.",
+                  "duration": "",
+                  "level": "",
+                  "url": "#contact"
+                },
+                {
+                  "id": "prog-2",
+                  "image": "/about/about-2.jpg",
+                  "imageAlt": "Weight Loss Training",
+                  "category": "02",
+                  "title": "Weight Loss & Tone",
+                  "description": "Fun, calorie-burning routines combined with simple nutrition habits for steady results.",
+                  "duration": "",
+                  "level": "",
+                  "url": "#contact"
+                },
+                {
+                  "id": "prog-3",
+                  "image": "/about/about-1.jpg",
+                  "imageAlt": "Muscle Building",
+                  "category": "03",
+                  "title": "Strength & Muscle",
+                  "description": "Step-by-step weight training to increase strength, improve posture, and build lean muscle.",
+                  "duration": "",
+                  "level": "",
+                  "url": "#contact"
+                },
+                {
+                  "id": "prog-4",
+                  "image": "/about/about-2.jpg",
+                  "imageAlt": "Cardio Training",
+                  "category": "04",
+                  "title": "Cardio Endurance",
+                  "description": "High-energy conditioning sessions designed to boost heart health and daily stamina.",
+                  "duration": "",
+                  "level": "",
+                  "url": "#contact"
+                },
+                {
+                  "id": "prog-5",
+                  "image": "/about/about-1.jpg",
+                  "imageAlt": "Functional Training",
+                  "category": "05",
+                  "title": "Mobility & Posture",
+                  "description": "Functional movements to reduce stiffness, protect joints, and move easily every day.",
+                  "duration": "",
+                  "level": "",
+                  "url": "#contact"
+                },
+                {
+                  "id": "prog-6",
+                  "image": "/about/about-2.jpg",
+                  "imageAlt": "Group Training",
+                  "category": "06",
+                  "title": "Community Classes",
+                  "description": "Energetic group workouts that keep you inspired and accountable alongside gym friends.",
+                  "duration": "",
+                  "level": "",
+                  "url": "#contact"
+                }
+              ]
+            }
+          }
+        },
+        "Process": {
+          "variants": {
+            "ForgeFitProcess2": {
+              "subtitle": "HOW IT WORKS",
+              "titlePart1": "YOUR",
+              "titleHighlight": "FITNESS JOURNEY",
+              "description": "Three straightforward steps designed to help you build consistency and hit your targets without stress.",
+              "image": "/other/image1_gold.webp",
+              "imageAlt": "Fitness Journey",
+              "steps": [
+                {
+                  "id": "step-1",
+                  "icon": "FaClipboardList",
+                  "stepNumber": "01",
+                  "title": "DISCUSS YOUR GOALS",
+                  "description": "We understand your fitness background, schedule, and targets to pick the best starting routine."
+                },
+                {
+                  "id": "step-2",
+                  "icon": "FaDumbbell",
+                  "stepNumber": "02",
+                  "title": "TRAIN WITH GUIDANCE",
+                  "description": "Follow simple, structured gym sessions with hands-on coaching and form correction."
+                },
+                {
+                  "id": "step-3",
+                  "icon": "FaChartLine",
+                  "stepNumber": "03",
+                  "title": "ENJOY LASTING RESULTS",
+                  "description": "Celebrate noticeable strength gains, better energy levels, and long-term healthy habits."
+                }
+              ]
+            }
+          }
+        },
+        "Testimonials": {
+          "variants": {
+            "ForgeFitTestimonials2": {
+              "subtitle": "TESTIMONIALS",
+              "titlePart1": "WHAT OUR",
+              "titleHighlight": "MEMBERS SAY",
+              "description": "Real stories from members who found consistency and strength with us.",
+              "testimonials": [
+                {
+                  "id": "test-1",
+                  "image": "/team/c1.webp",
+                  "name": "Rohit Sharma",
+                  "designation": "IT Professional, Delhi",
+                  "rating": 5,
+                  "text": "The trainers explain every exercise so clearly. In just three months, my stamina has doubled and workout time is now my favorite part of the day."
+                },
+                {
+                  "id": "test-2",
+                  "image": "/team/c2.webp",
+                  "name": "Priya Mehta",
+                  "designation": "Student, Mumbai",
+                  "rating": 5,
+                  "text": "Super friendly gym environment with zero intimidation. The personalized routine fits my work schedule perfectly, and I have never felt more energetic."
+                },
+                {
+                  "id": "test-3",
+                  "image": "/team/c3.webp",
+                  "name": "Amit Verma",
+                  "designation": "Business Owner, Bangalore",
+                  "rating": 5,
+                  "text": "Top-tier equipment and clean space. What I appreciate most is the focus on correct posture and steady progress without unnecessary burnout."
+                },
+                {
+                  "id": "test-4",
+                  "image": "/team/c1.webp",
+                  "name": "Vikas Yadav",
+                  "designation": "Software Engineer, Pune",
+                  "rating": 5,
+                  "text": "Great community vibe that keeps you motivated. Whether you are a beginner or experienced, the coaches pay close attention to your daily progress."
+                },
+                {
+                  "id": "test-5",
+                  "image": "/team/c2.webp",
+                  "name": "Sneha Rao",
+                  "designation": "Marketing Head, Hyderabad",
+                  "rating": 5,
+                  "text": "After trying and quitting multiple gyms, ForgeFit helped me stay on track. The workouts are fun, challenging, and easy to stick with long-term."
+                },
+                {
+                  "id": "test-6",
+                  "image": "/team/c3.webp",
+                  "name": "Karan Singh",
+                  "designation": "Entrepreneur, Gurgaon",
+                  "rating": 5,
+                  "text": "Very helpful trainers who genuinely want you to succeed. The facility is spotless, open early, and has all the right strength gear."
+                }
+              ]
+            }
+          }
+        },
+        "Counter": {
+          "variants": {
+            "ForgeFitCounter2": {
+              "subtitle": "OUR IMPACT",
+              "titlePart1": "REAL PEOPLE. ",
+              "titleHighlight": "REAL RESULTS.",
+              "description": "A reflection of the hard work, consistency, and milestones shared across our fitness club.",
+              "backgroundImage": "/other/impact_gold.webp",
+              "stats": [
+                {
+                  "id": "stat-1",
+                  "value": "12",
+                  "suffix": "K+",
+                  "label": "MEMBERS TRAINED",
+                  "icon": "FaUsers"
+                },
+                {
+                  "id": "stat-2",
+                  "value": "150",
+                  "suffix": "+",
+                  "label": "TRAINING PROGRAMS",
+                  "icon": "FaDumbbell"
+                },
+                {
+                  "id": "stat-3",
+                  "value": "25",
+                  "suffix": "+",
+                  "label": "CERTIFIED TRAINERS",
+                  "icon": "FaAward"
+                },
+                {
+                  "id": "stat-4",
+                  "value": "95",
+                  "suffix": "%",
+                  "label": "CLIENT SATISFACTION",
+                  "icon": "FaChartLine"
+                }
+              ]
+            }
+          }
+        },
+        "Contact": {
+          "variants": {
+            "ForgeFitContact2": {
+              "subtitle": "GET IN TOUCH",
+              "titlePart1": "Let's Start Your\n",
+              "titleHighlight": "Fitness Journey",
+              "description": "Ready to start or curious about memberships? Drop us a line or visit us anytime during gym hours.",
+              "contactInfo": [
+                {
+                  "id": "ci-1",
+                  "icon": "FaPhoneAlt",
+                  "title": "Call Us",
+                  "lines": [
+                    "+1 000000000",
+                    "Mon - Sat, 9AM - 7PM"
+                  ]
+                },
+                {
+                  "id": "ci-2",
+                  "icon": "FaEnvelope",
+                  "title": "Email Us",
+                  "lines": [
+                    "info@xyz.com",
+                    "We reply within 24 hours"
+                  ]
+                },
+                {
+                  "id": "ci-3",
+                  "icon": "FaMapMarkerAlt",
+                  "title": "Visit Us",
+                  "lines": [
+                    "123 Dummy St,",
+                    "New York, NY 10001"
+                  ]
+                },
+                {
+                  "id": "ci-4",
+                  "icon": "FaClock",
+                  "title": "Our Hours",
+                  "lines": [
+                    "Mon - Sat: 6:00 AM - 10:00 PM",
+                    "Sunday: 6:00 AM - 6:00 PM"
+                  ]
+                }
+              ],
+              "socialLinks": [
+                {
+                  "id": "sl-1",
+                  "icon": "FaFacebookF",
+                  "url": "#"
+                },
+                {
+                  "id": "sl-2",
+                  "icon": "FaInstagram",
+                  "url": "#"
+                },
+                {
+                  "id": "sl-3",
+                  "icon": "FaYoutube",
+                  "url": "#"
+                },
+                {
+                  "id": "sl-4",
+                  "icon": "FaLinkedinIn",
+                  "url": "#"
+                }
+              ],
+              "formSubtitle": "SEND US A MESSAGE",
+              "formTitlePart1": "We're Here ",
+              "formTitleHighlight": "to Help",
+              "formDescription": "Fill out the form and our team\nwill get back to you shortly.",
+              "submitText": "Send Message",
+              "form": {
+                "fullNameLabel": "Full Name",
+                "fullNamePlaceholder": "Your full name",
+                "emailLabel": "Email Address",
+                "emailPlaceholder": "Your email address",
+                "phoneLabel": "Phone Number",
+                "phonePlaceholder": "Your phone number",
+                "subjectLabel": "Subject",
+                "subjectDefaultOption": "Select a subject",
+                "subjectOptions": [
+                  {
+                    "id": "opt-membership",
+                    "value": "membership",
+                    "label": "Membership Inquiry"
+                  },
+                  {
+                    "id": "opt-training",
+                    "value": "training",
+                    "label": "Personal Training"
+                  },
+                  {
+                    "id": "opt-other",
+                    "value": "other",
+                    "label": "General Questions"
+                  }
+                ],
+                "messageLabel": "Message",
+                "messagePlaceholder": "Write your message here...",
+                "agreementText": "I agree to be contacted by ForgeFit."
+              }
+            }
+          }
+        },
+        "ImageGallery": {
+          "variants": {
+            "ForgeFitImageGallery2": {
+              "subtitle": "IMAGE GALLERY",
+              "titlePart1": "Captured at ",
+              "titleHighlight": "ForgeFit",
+              "description": "A glimpse into our facility, training sessions, events and the amazing community that makes ForgeFit special.",
+              "loadMoreText": "Load More",
+              "tabs": [
+                {
+                  "id": "all",
+                  "label": "All",
+                  "category": "all"
+                },
+                {
+                  "id": "training",
+                  "label": "Training",
+                  "category": "training"
+                },
+                {
+                  "id": "facilities",
+                  "label": "Facilities",
+                  "category": "facilities"
+                },
+                {
+                  "id": "events",
+                  "label": "Events",
+                  "category": "events"
+                },
+                {
+                  "id": "members",
+                  "label": "Members",
+                  "category": "members"
+                },
+                {
+                  "id": "transformations",
+                  "label": "Transformations",
+                  "category": "transformations"
+                }
+              ],
+              "images": [
+                {
+                  "id": "img1",
+                  "category": "training",
+                  "image": "/gallery/01.jpg",
+                  "imageAlt": "Gallery image 1"
+                },
+                {
+                  "id": "img2",
+                  "category": "facilities",
+                  "image": "/gallery/02.jpg",
+                  "imageAlt": "Gallery image 2"
+                },
+                {
+                  "id": "img3",
+                  "category": "events",
+                  "image": "/gallery/03.jpg",
+                  "imageAlt": "Gallery image 3"
+                },
+                {
+                  "id": "img4",
+                  "category": "members",
+                  "image": "/gallery/04.jpg",
+                  "imageAlt": "Gallery image 4"
+                },
+                {
+                  "id": "img5",
+                  "category": "transformations",
+                  "image": "/gallery/05.jpg",
+                  "imageAlt": "Gallery image 5"
+                },
+                {
+                  "id": "img6",
+                  "category": "training",
+                  "image": "/gallery/06.jpg",
+                  "imageAlt": "Gallery image 6"
+                },
+                {
+                  "id": "img7",
+                  "category": "facilities",
+                  "image": "/gallery/07.jpg",
+                  "imageAlt": "Gallery image 7"
+                },
+                {
+                  "id": "img8",
+                  "category": "events",
+                  "image": "/gallery/08.jpg",
+                  "imageAlt": "Gallery image 8"
+                },
+                {
+                  "id": "img9",
+                  "category": "members",
+                  "image": "/gallery/09.jpg",
+                  "imageAlt": "Gallery image 9"
+                },
+                {
+                  "id": "img10",
+                  "category": "transformations",
+                  "image": "/gallery/10.jpg",
+                  "imageAlt": "Gallery image 10"
+                },
+                {
+                  "id": "img11",
+                  "category": "training",
+                  "image": "/gallery/11.jpg",
+                  "imageAlt": "Gallery image 11"
+                }
+              ]
+            }
+          }
+        },
+        "FAQ": {
+          "variants": {
+            "ForgeFitFAQ2": {
+              "subtitle": "FAQS",
+              "titlePart1": "Common Questions,",
+              "titleHighlight": "Clear Answers",
+              "description": "Quick answers to help you get started. Feel free to reach out directly if you have any questions.",
+              "promo": {
+                "image": "/banner/banner1.webp",
+                "imageAlt": "Gym Trainer",
+                "title": "STILL HAVE",
+                "titleHighlight": "QUESTIONS?",
+                "description": "Our team is here to help you with any queries. Get in touch and we'll be happy to assist you.",
+                "buttonText": "Contact Us",
+                "buttonUrl": "#contact"
+              },
+              "faqs": [
+                {
+                  "id": "faq1",
+                  "question": "What kind of workout programs can I join?",
+                  "answer": "We offer personal coaching, strength training, weight loss sessions, cardio conditioning, and mobility training. All programs are adaptable for beginners and experienced lifters."
+                },
+                {
+                  "id": "faq2",
+                  "question": "Do I need prior gym experience to start?",
+                  "answer": "Not at all. Our trainers will introduce you to every machine, correct your posture, and build a gradual plan suited to your comfort level."
+                },
+                {
+                  "id": "faq3",
+                  "question": "How does personal training work here?",
+                  "answer": "You are paired with a certified coach who designs a step-by-step workout routine, tracks your progress, and helps you stay consistent each week."
+                },
+                {
+                  "id": "faq4",
+                  "question": "What are your gym operating hours?",
+                  "answer": "We are open Monday to Saturday from 6:00 AM to 10:00 PM, and on Sundays from 6:00 AM to 6:00 PM."
+                },
+                {
+                  "id": "faq5",
+                  "question": "How can I sign up or book a visit?",
+                  "answer": "Simply fill out the contact form below or drop by our front desk. Our team will happily show you around the gym and discuss the right plan for you."
+                }
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

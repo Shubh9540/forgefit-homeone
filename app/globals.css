@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Fonts */
+  --font-primary: var(--font-poppins), sans-serif;
+  --font-heading: var(--font-poppins), sans-serif;
+
+  /* Global Colors — Premium Dark Fitness Theme */
+  --color-bg-main: #0c0f14;
+  /* Deep Matte Black */
+  --color-bg-card: #141922;
+  /* Dark Charcoal Card Surface */
+  --color-bg-alt: #10141b;
+  /* Alternating Dark Section Surface */
+  --color-primary: #FFC107;
+  /* Amber / Golden Yellow primary */
+  --color-accent: #FFC107;
+  /* Amber */
+  --color-accent-light: #FFD54F;
+  /* Light Golden Amber */
+  --color-text: #ffffff;
+  /* Crisp White */
+  --color-text-light: #9ca3af;
+  /* Soft Platinum Muted */
+  --color-border: #222936;
+  /* Subtle Dark Border */
+}
+
+body {
+  color: var(--color-text);
+  background-color: var(--color-bg-main);
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
